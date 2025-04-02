@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FitLife - Your complete fitness solution with personalized workouts, nutrition plans, and expert advice to kickstart your health journey">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>FitLife | Your Health Journey Starts Here</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Favicon -->
+    <link rel="icon" href="pics/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="navbar-container">
+                <a href="/" class="logo-link" aria-label="FitLife Home">
+                    <img class="logo" src="pics/1600w-oqe3ybeEcQQ.webp" alt="FitLife Logo" loading="lazy">
+                </a>
+                <button class="hamburger" aria-label="Menu" aria-expanded="false">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#workouts" class="nav-link">Workouts</a></li>
+                    <li class="nav-item"><a href="#nutrition" class="nav-link">Nutrition</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About Us</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link cta-button">Get Started</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Your Health is Our Responsibility</h1>
+                <p class="hero-subtitle">Transform your life with personalized fitness plans tailored just for you</p>
+                <a href="#workouts" class="cta-button">Explore Programs</a>
+            </div>
+        </section>
+    </header>
+
+    <main class="main-content">
+        <section id="workouts" class="workouts-section">
+            <h2 class="section-title">Choose Your Workout</h2>
+            <div class="image-grid">
+                <div class="image-card">
+                    <img class="image" src="pics/1000_F_163798969_qrlYJT24qCW5Wusbvbid7W6AMcPBsxFZ.jpg" alt="Woman doing yoga" loading="lazy">
+                    <div class="image-overlay">
+                        <h3>Boxing and self defense</h3>
+                        <a href="view.html" class="image-button">View Program</a>
+                    </div>
+                </div>
+                <div class="image-card">
+                    <img class="image" src="pics/Bodybuilding_curl.jpg" alt="Man lifting weights" loading="lazy">
+                    <div class="image-overlay">
+                        <h3>Strength Training</h3>
+                        <a href="strength.html" class="image-button">View Program</a>
+                    </div>
+                </div>
+                <div class="image-card">
+                    <img class="image" src="pics/fitness-center.jpeg" alt="Fitness center" loading="lazy">
+                    <div class="image-overlay">
+                        <h3>Cardio & Conditioning</h3>
+                        <a href="cardio.html" class="image-button">View Program</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="nutrition" class="nutrition-section">
+            <section id="nutrition" class="nutrition-section">
+                <div class="container">
+                  <h2 class="section-title">Nutrition Plans</h2>
+                  <div class="nutrition-grid">
+                    <div class="nutrition-card">
+                      <i class="fas fa-utensils"></i>
+                      <h3>Meal Plans</h3>
+                      <p>Customized meal plans tailored to your fitness goals and dietary preferences.</p>
+                    </div>
+                    <div class="nutrition-card">
+                      <i class="fas fa-apple-alt"></i>
+                      <h3>Diet Guidance</h3>
+                      <p>Expert advice on macronutrients, portion control, and healthy eating habits.</p>
+                    </div>
+                    <div class="nutrition-card">
+                      <i class="fas fa-blender"></i>
+                      <h3>Supplementation</h3>
+                      <p>Recommendations for safe and effective supplements to support your training.</p>
+                    </div>
+                  </div>
+                </div>
+              </section>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="pics/1600w-oqe3ybeEcQQ.webp" alt="FitLife Logo" loading="lazy">
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#workouts">Workouts</a></li>
+                    <li><a href="#nutrition">Nutrition</a></li>
+                    <li><a href="#about">About Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 FitLife. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+<div id="checkoutModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Start Your Fitness Journey</h2>
+      <form id="checkoutForm">
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone">
+        </div>
+        <div class="form-group">
+          <label for="program">Select Program</label>
+          <select id="program" name="program" required>
+            <option value="">-- Select a Program --</option>
+            <option value="boxing">Boxing & Self Defense</option>
+            <option value="strength">Strength Training</option>
+            <option value="cardio">Cardio & Conditioning</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="plan">Membership Plan</label>
+          <select id="plan" name="plan" required>
+            <option value="">-- Select a Plan --</option>
+            <option value="basic">Basic ($99/month)</option>
+            <option value="premium">Premium ($149/month)</option>
+            <option value="elite">Elite ($249/month)</option>
+          </select>
+        </div>
+        <button type="submit" class="cta-button">Complete Enrollment</button>
+      </form>
+    </div>
+  </div>
+  <!-- Add these sections to your index.html -->
+<section id="about" class="about-section">
+    <div class="container">
+      <h2 class="section-title">About Us</h2>
+      <div class="about-content">
+        <p>FitLife is dedicated to helping you achieve your fitness goals through personalized training programs and expert guidance.</p>
+        <!-- Add more about content here -->
+      </div>
+    </div>
+  </section>
+  
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <h2 class="section-title">Contact Us</h2>
+      <div class="contact-content">
+        <p>Have questions? Reach out to our team for more information.</p>
+        <!-- Add contact form or info here -->
+      </div>
+    </div>
+  </section>
+</body>
+</html>

@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FitLife - Strength Training Program. Build muscle, increase strength, and transform your physique with our expert-guided program">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>FitLife | Strength Training Program</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="pics/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="navbar-container">
+                <a href="/" class="logo-link" aria-label="FitLife Home">
+                    <img class="logo" src="pics/1600w-oqe3ybeEcQQ.webp" alt="FitLife Logo" loading="lazy">
+                </a>
+                <button class="hamburger" aria-label="Menu" aria-expanded="false">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="index.html#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="index.html#workouts" class="nav-link">Workouts</a></li>
+                    <li class="nav-item"><a href="index.html#nutrition" class="nav-link">Nutrition</a></li>
+                    <li class="nav-item"><a href="index.html#about" class="nav-link">About Us</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link cta-button">Join Now</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="program-main">
+        <section class="program-hero" style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('pics/strength-hero.jpg');">
+            <div class="program-hero-content">
+                <h1>Strength Training</h1>
+                <p>Build muscle, increase strength, and transform your physique</p>
+                <a href="#pricing" class="cta-button">Start Building Today</a>
+            </div>
+        </section>
+
+        <section class="program-details">
+            <div class="program-container">
+                <div class="program-intro">
+                    <h2>About This Program</h2>
+                    <div class="progress-tracker">
+                        <h3>Your Strength Journey</h3>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 0%"></div>
+                        </div>
+                        <div class="progress-labels">
+                            <span>Week 1</span>
+                            <span>Week 12</span>
+                        </div>
+                    </div>
+                    <p>Our Strength Training program is designed to help you build lean muscle mass, increase your overall strength, and improve your body composition. Whether you're a beginner or an experienced lifter, our progressive program will challenge you and deliver results. With expert coaching and personalized plans, you'll learn proper form and techniques to maximize your gains.</p>
+                    
+                    <div class="program-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>12 Weeks</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-dumbbell"></i>
+                            <span>4-5x Weekly</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Progressive</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="program-benefits">
+                    <h2>What You'll Achieve</h2>
+                    <div class="benefits-grid">
+                        <div class="benefit-card">
+                            <i class="fas fa-weight-hanging"></i>
+                            <h3>Increased Strength</h3>
+                            <p>Significantly improve your lifting capacity across all major lifts</p>
+                        </div>
+                        <div class="benefit-card">
+                            <i class="fas fa-male"></i>
+                            <h3>Muscle Growth</h3>
+                            <p>Build lean muscle mass with scientifically-proven techniques</p>
+                        </div>
+                        <div class="benefit-card">
+                            <i class="fas fa-burn"></i>
+                            <h3>Metabolic Boost</h3>
+                            <p>Increase your resting metabolism for better fat burning</p>
+                        </div>
+                        <div class="benefit-card">
+                            <i class="fas fa-bone"></i>
+                            <h3>Bone Density</h3>
+                            <p>Strengthen bones and reduce risk of osteoporosis</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="program-methods">
+                    <h2>Training Methods</h2>
+                    <div class="methods-grid">
+                        <div class="method-card">
+                            <h3>Progressive Overload</h3>
+                            <p>Systematically increase weight and volume to ensure continuous progress</p>
+                        </div>
+                        <div class="method-card">
+                            <h3>Compound Lifts</h3>
+                            <p>Focus on multi-joint movements for maximum muscle recruitment</p>
+                        </div>
+                        <div class="method-card">
+                            <h3>Periodization</h3>
+                            <p>Structured phases to optimize strength and muscle gains</p>
+                        </div>
+                        <div class="method-card">
+                            <h3>Accessory Work</h3>
+                            <p>Targeted exercises to address weak points and imbalances</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="program-schedule">
+                    <h2>Program Structure</h2>
+                    <div class="schedule-tabs">
+                        <button class="tab-button active" data-tab="phase1">Foundation Phase</button>
+                        <button class="tab-button" data-tab="phase2">Strength Phase</button>
+                        <button class="tab-button" data-tab="phase3">Hypertrophy Phase</button>
+                    </div>
+                    
+                    <div class="tab-content active" id="phase1">
+                        <h3>Weeks 1-4: Foundation</h3>
+                        <ul>
+                            <li>Master proper form on all major lifts</li>
+                            <li>Establish baseline strength levels</li>
+                            <li>Full-body workouts 3x per week</li>
+                            <li>Introduction to progressive overload</li>
+                            <li>Focus on movement patterns</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-content" id="phase2">
+                        <h3>Weeks 5-8: Strength</h3>
+                        <ul>
+                            <li>Heavier weights with lower reps</li>
+                            <li>4-day upper/lower split</li>
+                            <li>Increased volume on compound lifts</li>
+                            <li>Introduction to advanced techniques</li>
+                            <li>Strength testing benchmarks</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-content" id="phase3">
+                        <h3>Weeks 9-12: Hypertrophy</h3>
+                        <ul>
+                            <li>Increased training frequency</li>
+                            <li>Body part specialization</li>
+                            <li>Advanced intensity techniques</li>
+                            <li>Peak contraction methods</li>
+                            <li>Final strength assessments</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="program-testimonials">
+                    <h2>Success Stories</h2>
+                    <div class="testimonials-slider">
+                        <div class="testimonial">
+                            <div class="testimonial-content">
+                                <p>"I've gained 12 pounds of muscle in 3 months! The structured program and coaching made all the difference compared to my previous workouts."</p>
+                                <div class="testimonial-author">
+                                    <img src="pics/strength-testimonial1.jpg" alt="James R.">
+                                    <span>James R.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial">
+                            <div class="testimonial-content">
+                                <p>"As a woman, I was afraid of getting bulky, but the trainers helped me understand proper strength training. I'm stronger and leaner than ever!"</p>
+                                <div class="testimonial-author">
+                                    <img src="pics/strength-testimonial2.jpg" alt="Lisa M.">
+                                    <span>Lisa M.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="pricing" class="program-pricing">
+                    <h2>Choose Your Plan</h2>
+                    <div class="pricing-cards">
+                        <div class="pricing-card">
+                            <h3>Basic</h3>
+                            <div class="price">$89<span>/month</span></div>
+                            <ul>
+                                <li>3 strength sessions per week</li>
+                                <li>Group classes</li>
+                                <li>Basic equipment access</li>
+                                <li>Form checks</li>
+                            </ul>
+                            <a href="#" class="cta-button">Get Started</a>
+                        </div>
+                        <div class="pricing-card featured">
+                            <div class="popular-badge">Most Popular</div>
+                            <h3>Premium</h3>
+                            <div class="price">$139<span>/month</span></div>
+                            <ul>
+                                <li>4 strength sessions per week</li>
+                                <li>1 personal coaching session</li>
+                                <li>Full equipment access</li>
+                                <li>Personalized program adjustments</li>
+                                <li>Progress tracking</li>
+                            </ul>
+                            <a href="#" class="cta-button">Get Started</a>
+                        </div>
+                        <div class="pricing-card">
+                            <h3>Elite</h3>
+                            <div class="price">$229<span>/month</span></div>
+                            <ul>
+                                <li>Unlimited sessions</li>
+                                <li>2 personal coaching sessions</li>
+                                <li>24/7 facility access</li>
+                                <li>Customized nutrition plan</li>
+                                <li>Advanced progress tracking</li>
+                            </ul>
+                            <a href="#" class="cta-button">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="program-cta">
+                    <h2>Ready to Build Real Strength?</h2>
+                    <p>Join our community of lifters who are transforming their bodies and lives</p>
+                    <a href="#pricing" class="cta-button">Start Lifting Today</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="pics/1600w-oqe3ybeEcQQ.webp" alt="FitLife Logo" loading="lazy">
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#workouts">Workouts</a></li>
+                    <li><a href="index.html#nutrition">Nutrition</a></li>
+                    <li><a href="index.html#about">About Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 FitLife. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+   <!-- Checkout Modal -->
+<div id="checkoutModal" class="modal">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h2>Start Your Fitness Journey</h2>
+        <form id="checkoutForm">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Email Address" required>
+            </div>
+            <div class="form-group">
+                <label for="program">Select Program</label>
+                <select id="program" name="program" required>
+                    <option value="">-- Select a Program --</option>
+                    <option value="boxing">Boxing & Self Defense</option>
+                    <option value="strength">Strength Training</option>
+                    <option value="cardio">Cardio & Conditioning</option>
+                </select>
+            </div>
+            <button type="submit" class="cta-button">Complete Enrollment</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
